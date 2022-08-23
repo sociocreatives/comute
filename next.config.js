@@ -13,7 +13,7 @@ const nextConfig = {
     
     MONGODB_URI: "mongodb+srv://comute:comute_ayara12@cluster1.iqrga.mongodb.net/?retryWrites=true&w=majority",
     
-    NEXTAUTH_URL: "https://comute2.vercel.app",
+    NEXTAUTH_URL: "https://comute2.vercel.app/",
     
     JWT_SECRET: "ZIoJMHyzDaExglU7tGrJ+XZeBFh/VcvRln7Ksw7RZEo=",
     
