@@ -5,8 +5,8 @@
 const nextConfig = {
 
   env: {
-    GOOGLE_ID: "675709345107-tmsmosqnvskpsu5tbiujgv1gq6msgnp6.apps.googleusercontent.com",
-    GOOGLE_SECRET: "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",
+    GOOGLE_ID: "675709345107-qdbsuhpr0e0nsb9i727lj7g9acrq0t4m.apps.googleusercontent.com",
+    GOOGLE_SECRET: "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",
     
     FACEBOOK_CLIENT_ID: 597760165390069,
     FACEBOOK_CLIENT_SECRET: "5069c3ddf95eadb4c95da2e993f5e3cd",
