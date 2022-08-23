@@ -1,0 +1,82 @@
+.bigbox{
+    width: 400px;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.input{
+    width: 100%;
+    padding: .75rem;
+    background-color:lightgray;
+    border: none;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.input:focus{
+    outline: none;
+    border-bottom: 2px solid #002B5B;
+    border-radius: 0rem;
+}
+
+.header{
+    color: #002B5B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.fa{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.location{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mylocation{
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.buttons{
+    background-color:  #002B5B;
+    padding: .75rem;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: #256D85;
+    transition: all ease-in-out .3s;
+}
+
+.result{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result h4{
+    background-color: #256D85;
+    color: white;
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+}
