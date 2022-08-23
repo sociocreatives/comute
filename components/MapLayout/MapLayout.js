@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Logo from '../../public/comute_logo.png'
 import { HiOutlineLogout } from 'react-icons/hi';
 import { MdMyLocation } from 'react-icons/md'
-import mapStyles from '../../pages/mapStyles'
+import mapStyles from '../../mapStyles'
 import styles from "../../styles/MapLayout.module.css"
 import { GoogleMap, useLoadScript, useJsApiLoader, Marker, Autocomplete, DirectionsService, DirectionsRenderer, Polyline } from '@react-google-maps/api';
 import usePlacesAutoComplete, {getGeocode, getLatLng} from 'use-places-autocomplete'
