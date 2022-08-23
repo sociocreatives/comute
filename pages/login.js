@@ -4,7 +4,7 @@ import Logo from '../public/SVG/comute_logo.svg'
 import { FaGoogle } from 'react-icons/fa';
 import { useSession, signIn, signOut } from "next-auth/react"
 
-const login = () => {
+const Login = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { data: session } = useSession()
     if (session) {
@@ -28,5 +28,5 @@ const login = () => {
     )
 }
 
-export default login
+export default Login
 

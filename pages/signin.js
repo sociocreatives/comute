@@ -1,11 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Logo from '../public/SVG/comute_logo.svg'
 import { FaGoogle } from 'react-icons/fa';
-
-// add bootstrap css 
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 export default function Signin() {
@@ -20,3 +15,4 @@ export default function Signin() {
     </div>
   )
 }
+
